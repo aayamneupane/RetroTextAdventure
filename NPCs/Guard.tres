@@ -1,0 +1,11 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://NPCs/NPC.gd" type="Script" id=1]
+[ext_resource path="res://items/GuardSword.tres" type="Resource" id=2]
+
+[resource]
+script = ExtResource( 1 )
+npc_name = "Guard"
+initial_dialogue = "Errrr................You shall not pass"
+post_quest_dialogue = "Thankyou my sweet child...!"
+quest_item = ExtResource( 2 )
